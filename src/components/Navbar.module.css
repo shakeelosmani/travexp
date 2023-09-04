@@ -1,0 +1,17 @@
+.logo {
+  width: 100%;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.menuText {
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+	.logo {
+		max-width: 50px;
+  	max-height: 50px;
+	}
+	
+}
