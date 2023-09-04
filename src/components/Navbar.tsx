@@ -18,10 +18,10 @@ function Navbar() {
 					<img src={logo} alt="logo" className={`responsive-img ${style.logo}`}/>
 				</a>
 				<ul className="right hide-on-med-and-down">
-						<li><a href="/" className={style.menuText}>Navbar Link</a></li>
+						<li><a href="/about" className={style.menuText}>About</a></li>
 				</ul>
 				<ul id="nav-mobile" className="sidenav">
-						<li><a href="/" className={style.menuText}>Navbar Link</a></li>
+						<li><a href="/about" className={style.menuText}>About</a></li>
 				</ul>
 				<a href="/"  data-target="nav-mobile" className={`sidenav-trigger ${style.menuText}`}><i className="material-icons">menu</i></a>
 			</div>
