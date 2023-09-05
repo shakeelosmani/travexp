@@ -4,6 +4,10 @@
   max-height: 64px;
 }
 
+.sidenavTrigger {
+  color: #26a69a !important;
+}
+
 .menuText {
   color: #000000;
 }
