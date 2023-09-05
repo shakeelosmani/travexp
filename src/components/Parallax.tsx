@@ -1,16 +1,7 @@
 import bg1 from '../assets/background1.jpg'
 import './parallax.css'
-import { useEffect } from 'react';
-import M from 'materialize-css';
 
 const Parallax = () => {
-
-	useEffect(() => {
-		let parallax = document.querySelector('.parallax')! as HTMLDivElement;
-		M.Parallax.init(parallax, {});
-	}, []);
-
-
   return (
     <div id="index-banner" className="parallax-container">
       <div className="section no-pad-bot">

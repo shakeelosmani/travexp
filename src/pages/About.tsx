@@ -5,8 +5,14 @@ import { ParallaxImageProps } from "../ui-interfaces/ParallaxImageType";
 import ParallaxImage from "../components/ParallaxImage";
 import bg2 from "../assets/background2.jpg";
 import bg3 from "../assets/background3.jpg";
+import { useEffect } from "react";
+import M from "materialize-css";
 
 const About = () => {
+	useEffect(() => {
+		let parallax = document.querySelectorAll('.parallax')! as NodeListOf<HTMLDivElement>;
+		M.Parallax.init(parallax, {});
+	}, []);
   const aboutSection: IconSectionProps = {
     iconSections: [
       {
