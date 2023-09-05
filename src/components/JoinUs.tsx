@@ -1,4 +1,4 @@
-const Contactus = () => {
+const JoinUs = () => {
   return (
     <div className="container">
       <div className="section">
@@ -45,4 +45,4 @@ const Contactus = () => {
   );
 };
 
-export default Contactus;
+export default JoinUs;
