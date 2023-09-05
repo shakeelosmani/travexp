@@ -1,5 +1,5 @@
-import bg1 from '../assets/background1.jpg'
-import './parallax.css'
+import bg1 from "../assets/background1.jpg";
+import "./parallax.css";
 
 const Parallax = () => {
   return (

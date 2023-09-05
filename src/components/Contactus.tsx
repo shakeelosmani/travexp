@@ -7,8 +7,8 @@ const Contactus = () => {
             <h3>
               <i className="mdi-content-send brown-text"></i>
             </h3>
-            <h4 style={{color: "#000"}}>Contact Us</h4>
-            <p className="left-align light" style={{color: "#000"}}>
+            <h4 style={{ color: "#000" }}>Contact Us</h4>
+            <p className="left-align light" style={{ color: "#000" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               scelerisque id nunc nec volutpat. Etiam pellentesque tristique
               arcu, non consequat magna fermentum ac. Cras ut ultricies eros.

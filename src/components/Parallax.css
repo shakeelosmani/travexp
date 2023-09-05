@@ -1,23 +1,23 @@
 .parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
-  }
-    .parallax-container .section {
-      width: 100%;
-    }
-  
-  @media only screen and (max-width : 992px) {
-    .parallax-container .section {
-      position: absolute;
-      top: 40%;
-    }
-  }
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
 
-  @media only screen and (max-width : 384px) {
-    .parallax-container .section {
-      position: absolute;
-      top: 0%;
-    }
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
   }
+}
+
+@media only screen and (max-width: 384px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 0%;
+  }
+}
