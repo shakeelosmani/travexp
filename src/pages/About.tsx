@@ -1,6 +1,8 @@
-function About() {
+import Parallax from "../components/Parallax"
+
+const About = () => {
   return (
-    <div>About Page</div>
+    <Parallax/>
   )
 }
 
