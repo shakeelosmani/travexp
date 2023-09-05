@@ -1,6 +1,10 @@
 import Parallax from "../components/Parallax";
 import { IconSectionProps } from "../ui-interfaces/IconSectionType";
 import IconSection from "../components/IconSection";
+import { ParallaxImageProps } from "../ui-interfaces/ParallaxImageType";
+import ParallaxImage from "../components/ParallaxImage";
+import bg2 from "../assets/background2.jpg";
+import bg3 from "../assets/background3.jpg";
 
 const About = () => {
   const aboutSection: IconSectionProps = {
@@ -30,8 +34,23 @@ const About = () => {
 					Detox, in this context, signifies a period of abstaining from these digital distractions to refresh one's mental and 
 					emotional well-being, often promoting healthier digital habits.`,
       },
-    ],
-  };
+    ]
+	};
+
+	const parallaxImages: ParallaxImageProps = {
+		parallaxImages: [
+			{
+				headLineMessage: "Where ever life takes you, go with all your heart",
+				imageAlt: "A jeep image in a foggy mountain",
+				imageSrc: bg2
+			},
+			{
+				headLineMessage: "Make memories of a lifetime, not just a living",
+				imageAlt: "A deep wood",
+				imageSrc: bg3
+			}
+		]
+	}
 
   return (
 	<>
@@ -41,6 +60,7 @@ const About = () => {
 				<IconSection iconSections={aboutSection.iconSections} />
 			</div>
 		</div>
+		<ParallaxImage parallaxImages={[parallaxImages.parallaxImages[0]]} />
 	</>
 	);
 };
