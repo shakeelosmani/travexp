@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { ParallaxImageProps } from "../ui-interfaces/ParallaxImageType";
 import "./parallax.css";
 

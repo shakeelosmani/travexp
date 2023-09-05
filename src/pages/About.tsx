@@ -4,6 +4,7 @@ import ParallaxImage from "../components/ParallaxImage";
 import { useEffect } from "react";
 import M from "materialize-css";
 import { aboutSection, parallaxImages } from '../ui-view-model/AboutPageModel';
+import Contactus from "../components/Contactus";
 
 const About = () => {
 	useEffect(() => {
@@ -20,6 +21,8 @@ const About = () => {
 			</div>
 		</div>
 		<ParallaxImage parallaxImages={[parallaxImages.parallaxImages[0]]} />
+		<Contactus />
+		<ParallaxImage parallaxImages={[parallaxImages.parallaxImages[1]]} />
 	</>
 	);
 };

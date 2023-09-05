@@ -26,7 +26,6 @@ const Navbar: React.FC = () => {
 				</ul>
 				<a href="/"  data-target="nav-mobile" className={`sidenav-trigger ${style.sidenavTrigger} ${style.menuText}`}><i className="material-icons">menu</i></a>
 			</div>
-			<Outlet/>
   </nav>
   )
 }
