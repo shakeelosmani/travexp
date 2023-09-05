@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import logo from '../assets/logo.png';
 import style from './Navbar.module.css'
 import M from 'materialize-css';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Navbar: React.FC = () => {
