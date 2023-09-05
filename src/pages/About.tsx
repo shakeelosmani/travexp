@@ -4,7 +4,7 @@ import ParallaxImage from "../components/ParallaxImage";
 import { useEffect } from "react";
 import M from "materialize-css";
 import { aboutSection, parallaxImages } from "../ui-view-model/AboutPageModel";
-import Contactus from "../components/Contactus";
+import Contactus from "../components/JoinUs";
 
 const About = () => {
   useEffect(() => {
