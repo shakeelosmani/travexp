@@ -1,5 +1,5 @@
 import bg1 from '../assets/background1.jpg'
-import './Parallax.css'
+import './parallax.css'
 import { useEffect } from 'react';
 import M from 'materialize-css';
 
