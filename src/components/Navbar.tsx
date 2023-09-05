@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import logo from '../assets/logo.png';
 import style from './Navbar.module.css'
 import M from 'materialize-css';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 
 const Navbar: React.FC = () => {
@@ -15,14 +15,14 @@ const Navbar: React.FC = () => {
   return (
     <nav className="white" role="navigation">
 			<div className="nav-wrapper container">
-				<a id="logo-container" href="/" className="brand-logo">
+				<Link to="/" className="brand-logo">
 					<img src={logo} alt="logo" className={`responsive-img ${style.logo}`}/>
-				</a>
+				</Link>
 				<ul className="right hide-on-med-and-down">
-						<li><a href="/about" className={style.menuText}>About</a></li>
+						<li><Link to="/about" className={style.menuText}>About</Link></li>
 				</ul>
 				<ul id="nav-mobile" className="sidenav">
-						<li><a href="/about" className={style.menuText}>About</a></li>
+						<li><Link to="/about" className={style.menuText}>About</Link></li>
 				</ul>
 				<a href="/"  data-target="nav-mobile" className={`sidenav-trigger ${style.menuText}`}><i className="material-icons">menu</i></a>
 			</div>
