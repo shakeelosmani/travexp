@@ -2,9 +2,10 @@ import { useEffect } from 'react';
 import logo from '../assets/logo.png';
 import style from './Navbar.module.css'
 import M from 'materialize-css';
+import { Outlet } from 'react-router-dom';
 
 
-function Navbar() {
+const Navbar: React.FC = () => {
 
 	useEffect(() => {
 		let sidenav = document.querySelector('.sidenav')! as HTMLUListElement;
@@ -25,6 +26,7 @@ function Navbar() {
 				</ul>
 				<a href="/"  data-target="nav-mobile" className={`sidenav-trigger ${style.menuText}`}><i className="material-icons">menu</i></a>
 			</div>
+			<Outlet/>
   </nav>
   )
 }

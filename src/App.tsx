@@ -1,9 +1,10 @@
 import 'materialize-css/dist/css/materialize.min.css';
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 
-function App() {
+const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
