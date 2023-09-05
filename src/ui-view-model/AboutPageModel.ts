@@ -20,7 +20,7 @@ export const aboutSection: IconSectionProps = {
 					This connection brings peace, inspiration, and a deeper sense of responsibility for preserving and respecting the environment.`,
     },
     {
-      iconName: "settings",
+      iconName: "content_cut",
       headLineMessage: "Disconnect and detox",
       bodyMessage: `Disconnect refers to the act of intentionally unplugging or distancing oneself from digital devices, 
 					social media, or the internet, usually to reduce screen time and foster real-world connections. 
